@@ -6,6 +6,8 @@ import lombok.Data;
 
 @Data
 public class SignupForm {
+	
+	
 	private String userId;
 	private String password;
 	private String userName;
@@ -15,6 +17,5 @@ public class SignupForm {
 	
 	private Integer age;
 	private Integer gender;
-
 }
 
